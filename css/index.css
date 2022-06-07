@@ -1,0 +1,215 @@
+/*fontes de texto*/
+@font-face {
+    font-family: CookBookTitle;
+    src: url("../fuentes/CookbookTitle.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Champagne;
+    src: url("../fuentes/Champagne&LimousinesBold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Pointfree;
+    src: url("../fuentes/pointfree.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Tabitha;
+    src: url("../fuentes/tabitha.ttf") format("opentype");
+}
+
+
+
+/*body*/
+body {
+    background-color: rgb(236, 218, 185);
+}
+
+
+
+/*contedor principal da cabeceira*/
+.div_header {
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+}
+
+/*parágrafos dentro div_header*/
+.div_header p {
+    font-family: CookBookTitle;
+}
+
+/*contedor logo*/
+.logo {
+    margin-left: 5%;
+}
+
+/*contedor header_right*/
+.header_right{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+/*contedor para horario e direccion*/
+.horario_direccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+/*contedor links*/
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+/*contedor link dentro do contedor links*/
+.links .link{
+    margin: auto;
+}
+
+/*links dentro do contedor link*/
+.link a{
+    background-color: rgb(177 ,149 ,117);
+    border-radius: 25px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+
+/*contedor container*/
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+/*contedor productos_destacados*/
+.productos_destacados {
+    width: 30%;
+}
+
+/*contedor productos:_destacados1*/
+.productos_destacados1 {
+    display: flex;
+    flex-direction: row;
+}
+
+/*contedor productos:_destacados2*/
+.productos_destacados2 {
+    display: flex;
+    flex-direction: row;
+}
+
+/*contedor link dentro do contedor productos_destacados*/
+.productos_destacados .link {
+    text-align: center;
+}
+
+/*imaxes dentro de prodcutos_destacados*/
+.productos_destacados img{
+    margin: 1%;
+    max-width: 48%;
+}
+
+/*contedor link dentro de prodcutos_destacados*/
+.productos_destacados .link{
+    margin-bottom: 5%;
+    padding: 10px;
+}
+
+/*contedor sobre_nosotros*/
+.sobre_nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%; 
+    background-color: white;
+    border-radius: 20% 20% 20% 20%;
+}
+
+/* h2 dentro de sobre_nosotros*/
+.sobre_nosotros h2 {
+    font-family: Champagne;
+    text-align: center;
+}
+
+/* parágrafos dentro de sobre_nosotros*/
+.sobre_nosotros p {
+    font-family: Champagne;
+    text-align: justify;
+    width: 50%;
+    align-items: center;
+    font-size: larger;
+    font-style: italic;
+}
+
+/* links dentro de sobre_nosotros*/
+.sobre_nosotros a{
+    text-align: center;
+}
+
+/*contedor link dentro de sobre_nosotros*/
+.sobre_nosotros .link{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/*contedor imaxe*/
+.imaxe {
+    width: 30%;
+}
+
+/*imaxe dentro docontedor imaxe*/
+.imaxe img{
+    max-width: 100%;
+}
+
+
+
+
+
+/*footer da páxina*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    color:rgb(177 ,149 ,117);
+}
+
+/*contedor nota_legal*/
+.nota_legal {
+    margin-left: 33%;
+}
+
+/*parágrafos dentro de nota legal*/
+.nota_legal p{
+    font-family: Tabitha;
+
+}
+
+/*contedor telefono*/
+.telefono{
+    margin-right: 5%;
+}
+
+/*parágrafo dentro do contedor teléfono*/
+.telefono p{
+    font-family: Pointfree;
+}

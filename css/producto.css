@@ -1,0 +1,159 @@
+/*fontes de texto*/
+@font-face {
+    font-family: CookBookTitle;
+    src: url("../fuentes/CookbookTitle.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Champagne;
+    src: url("../fuentes/Champagne&LimousinesBold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Pointfree;
+    src: url("../fuentes/pointfree.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: Tabitha;
+    src: url("../fuentes/tabitha.ttf") format("opentype");
+}
+
+
+/*body*/
+body {
+    background-color: rgb(236, 218, 185);
+}
+
+
+
+/*contedor principal da cabeceira*/
+.div_header {
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+}
+
+/*parágrafos dentro div_header*/
+.div_header p {
+    font-family: CookBookTitle;
+}
+
+/*contedor logo*/
+.logo {
+    margin-left: 5%;
+}
+
+/*contedor header_right*/
+.header_right{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+/*contedor para horario e direccion*/
+.horario_direccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+/*contedor links*/
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+/*contedor link dentro do contedor links*/
+.links .link{
+    margin: auto;
+    padding: 20px;
+}
+
+/*links dentro do contedor link*/
+.link a{
+    background-color: rgb(177 ,149 ,117);
+    border-radius: 25px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+
+/*contedor container*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*ul dentro de container*/
+.container ul {
+    flex: 1;
+    list-style: none;
+}
+
+/*parágrafo dentro de ul, dentro de container*/
+.container ul p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*img dentro de li, dentro de ul, dentro do contedor container*/
+.container ul li img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+
+/*clase ul_total*/
+.ul_total {
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+.precio_precio{
+    font-size: 3em;
+}
+
+.precio{
+    font-size: 2em;
+}
+
+
+
+/*footer da páxina*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    color:rgb(177 ,149 ,117);
+}
+
+/*contedor nota_legal*/
+.nota_legal {
+    margin-left: 33%;
+}
+
+/*parágrafos dentro de nota legal*/
+.nota_legal p{
+    font-family: Tabitha;
+
+}
+
+/*contedor telefono*/
+.telefono{
+    margin-right: 5%;
+}
+/*parágrafo dentro do contedor teléfono*/
+.telefono p{
+    font-family: Pointfree;
+}
